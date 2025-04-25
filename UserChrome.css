@@ -1,0 +1,269 @@
+/*adds rounded corners on top*/
+:root:not([inDOMFullscreen="true"]) {
+    browser {
+        border-radius: 6px 6px 0px 0px !important;
+    }
+}
+/*adds transparency to compact mode sidebar*/
+:root[zen-compact-mode="true"] {
+    #navigator-toolbox #titlebar {
+        background: rgba(255, 255, 255, 0.8) !important;
+        backdrop-filter: blur(80px);
+    }
+}
+
+:root {
+    #browser {
+        background: rgba(0, 0, 0, 0) !important;
+        backdrop-filter: none;
+    }
+
+    browser {
+        background: rgba(255, 255, 255, 0.08) !important;
+        backdrop-filter: blur(20px) !important;
+    }
+/*makes text in urlbar white*/
+    #urlbar-results div span {
+        color: #fff !important;
+        fill: #fff !important;
+    }
+/*adds dark color on hover to urlbar*/
+    #urlbar:not([breakout-extend="true"]) {
+        &:hover #urlbar-background {
+            background: #0006 !important;
+        }
+    }
+/*color of urlbar*/
+    #urlbar:not([breakout-extend="true"]) {
+        background: rgba(0, 0, 0, 0.1) !important;
+
+    }
+/*color of urlbar when expanded*/
+    #urlbar[breakout-extend="true"] {
+        & #urlbar-background {
+            background: #fff4 !important;
+            backdrop-filter: blur(80px) !important;
+        }
+    }
+/*changes color of more thungs to white*/
+    #urlbar {
+        color: #fff !important;
+    }
+
+    .titlebar-buttonbox {
+        color: #fff !important;
+    }
+
+    #star-button[starred] {
+        fill: #ccdbf0 !important;
+    }
+
+    #reload-button {
+        fill: #fff !important;
+    }
+
+    #unified-extensions-button {
+        fill: #fff !important;
+    }
+
+    #PanelUI-menu-button {
+        fill: #fff !important;
+    }
+
+    #urlbar-zoom-button {
+        background: #00000032 !important;
+    }
+/*replaces the defualt svg for the back and forward button*/
+    #back-button {
+        list-style-image: url(arrowback.svg) !important;
+    }
+
+    #forward-button {
+        list-style-image: url(arrowforward.svg) !important;
+    }
+/*enable if you add the playback speed extention*/
+    #playbackspeed_waldemar_b-BAP {
+        list-style-image: url(speed.svg) !important;
+    }
+
+    #playbackspeed_waldemar_b-BAP stack .toolbarbutton-badge {
+        background: #0003 !important;
+        border-radius: 20px !important;
+        box-shadow: none !important;
+        transform: translate(4px,2px) !important;
+        font-size: 8px !important;
+        
+    }
+    
+    #playbackspeed_waldemar_b-BAP stack {
+        transform: translateY(0.7px) !important;
+    }
+/*  */
+   
+    
+/*bookmark bar animation*/
+    #zen-appcontent-navbar-container {
+        height: 40px;
+        transition: height .75s cubic-bezier(0.61, 1, 0.88, 1);
+        background: rgba(255, 255, 255, 0) !important;
+        backdrop-filter: blur(8px) !important;
+    }
+
+    #zen-appcontent-navbar-container:hover {
+        height: 70px;
+    }
+    
+    #PersonalToolbar {
+        transform: rotateX(90deg);
+        position: fixed;
+        z-index: 100;
+        color: #fff !important;
+    }
+    
+     #zen-appcontent-navbar-container:hover {
+         & #PersonalToolbar{
+             transform: rotateX(0deg);
+         }
+    }
+    /*
+    #PersonalToolbar:hover {
+        opacity: 1;
+        z-index: 1;
+        transition: opacity .3s ease-out;
+    }*/
+ #identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage)>.identity-box-button,
+    #urlbar-label-box {
+        background: #0002 !important;
+    }
+    
+/*makes more icons white*/
+    #bookmarks-toolbar-button image.toolbarbutton-icon {
+        fill: #fff !important;
+    }
+    
+    .bookmark-item image{
+        fill: #fff !important;
+    }
+/*centers bookmarks*/
+    #PlacesToolbar {
+        width: 99dvw !important;
+        justify-content: center !important;
+    }
+
+    #PlacesToolbar scrollbox {
+        justify-content: center !important;
+    }
+
+/*adds blur to small sidebar*/
+    #titlebar {
+        backdrop-filter: blur(80px) !important;
+    }
+/*adds transparency to media player*/
+    arrowscrollbox.menupopup-arrowscrollbox {
+        background: #fffc !important;
+        backdrop-filter: blur(80px) !important;
+    }
+
+/*changes playing animation for media player*/
+    #zen-media-focus-button::after {
+        content: " " !important;
+        height: 150% !important;
+        width: 40px !important;
+        background-image: url(https://cdn.pixabay.com/animation/2023/10/08/03/19/03-19-26-213_512.gif) !important;
+        ;
+        background-size: 100% !important;
+        background-repeat: no-repeat !important;
+        transform: translate(-20px, 11px) !important;
+        z-index: -10 !important;
+    }
+
+}
+/*makes tab tittles white when not in compact mode*/
+:root:not([zen-compact-mode="true"]) {
+    & #navigator-toolbox {
+        background: #fff0 !important;
+        color: #fff !important;
+    }
+}
+/*makes icons on sidebar white when not in compact mode*/
+:root:not([zen-compact-mode="true"]) {
+    & #navigator-toolbox toolbarbutton {
+        fill: #fff !important;
+    }
+}
+
+:root:not([zen-compact-mode="true"]) {
+    & #navigator-toolbox hbox toolbaritem {
+        background: #fff6 !important;
+    }
+}
+/*aligns the top icon on small sidebar with the topbar*/
+#navigator-toolbox:not([zen-sidebar-expanded="true"]) {
+    & #zen-sidebar-top-buttons-customization-target {
+        padding: 0px !important;
+    }
+}
+/*adds some padding to the bottom set of icons on small sidebar*/
+#navigator-toolbox:not([zen-sidebar-expanded="true"]) {
+    & #zen-sidebar-bottom-buttons {
+        padding: 0px 0px 8px 0px !important;
+    }
+}
+/*adds semi-transparent background around selected tabs*/
+tab:where([visuallyselected]) stack vbox.tab-background {
+    background: #fff8 !important;
+}
+
+#identity-box #notification-popup-box {
+    height: 100% !important;
+}
+
+/*fixes the tab close button being cutt of at the top when using small sidebar*/
+.tabbrowser-tab {
+    overflow: visible !important;
+}
+
+#tabbrowser-tabs[orient="vertical"] {
+    &:not([expanded]) {
+        & .tab-close-button {
+            transform: translateX(-4px) !important;
+        }
+    }
+}
+/*removes seperator line in right click menu*/
+menuseparator{display: none}
+/*transparency for right click menu*/
+#contentAreaContextMenu{backdrop-filter: blur(1px) !important;background: #d8ecf021 !important;}
+/*the things below the super url mod can do also*/
+/*aligns url to center when not in focus*/
+#urlbar .urlbar-input[aria-expanded="false"] {
+      text-align: center !important;
+    }
+/*adds a overlay over everything else when url bar is in focus*/
+#urlbar:is([breakout][breakout-extend], [breakout][usertyping][focused]):after {
+      content: "";
+      position: fixed;
+      pointer-events: none;
+      width: 200vw;
+      height: 100vh;
+      top: -5px;
+      left: -38px;
+      background-color: rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(80px);
+      z-index: -1;
+    }
+  }   
+/*hides container indicator*/
+#userContext-indicator {
+      display: none;
+    }
+#userContext-icons {
+      display: none;
+    }
+#urlbar:not(:hover) #urlbar-zoom-button,#urlbar:not(:hover) #tracking-protection-icon-container,#urlbar:not(:hover) #reader-mode-button,#urlbar:not(:hover) #picture-in-picture-button,#urlbar:not(:hover) #zen-split-views-box{
+      opacity: 0;
+      transition: 100ms linear, opacity 200ms linear;
+    }
+#identity-box box{
+    padding: 0px 5px !important;
+}
