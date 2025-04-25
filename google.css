@@ -1,0 +1,84 @@
+@-moz-document domain("www.google.com") {
+body {
+	background: rgba(145, 149, 150, .37) !important
+}
+a:visited {
+	color: #fff !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+Bi9oQd {
+	display: none !important
+}
+a, .RES9jf, .R8BTeb, .zz3gNc, .CYJS5e, em, .i3LlFf {
+	color: #f0f0f0 !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+.Jb0Zif .AxJnmb.Wdsnue .rl_item_base {
+	border: none !important
+}
+div:not(.sbic, .rnt3Ze, .kyN4Jf3TGqF__slider, .kyN4Jf3TGqF__slider-content, .kyN4Jf3TGqF__slider-background, .goog-slider-thumb, .NYcQFd,.sfbg) {
+	background: rgba(255, 255, 255, 0) !important;
+	border-color: rgba(255, 255, 255, 0) !important;
+}
+#searchform .sfbg{background: rgba(255, 255, 255, 0) !important}
+#searchform[style="position: fixed; top: 0px;"] .sfbg{background: rgba(255, 255, 255, .49) !important;backdrop-filter: blur(80px) !important}
+.mkHrUc, .RNNXgb {
+	background: rgba(244, 244, 244, .79) !important;
+	border-radius: 20px
+}
+span, cite, .ynAwRc, .r0uZsf, .YmvwI, .ssJ7i, .zqrO0, .Lu57id {
+	color: #fff !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+/*img.Sx67nb {
+    background:url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=content_copy)
+}    copy icon color picker page*/
+svg {
+	color: #080000 !important;
+}
+.wM6W7d span {
+	color: #080000 !important;
+}
+.mkHrUc {
+	border-radius: 0px
+}
+.DYjfCf, .iblpc, .REySof, .NQyKp.h4wEae, .rl_item_base, input.P2c8Dd {
+	background: rgba(255, 255, 255, 0) !important;
+}
+.gb_A, hr, .SaPW2b {
+	display: none
+}
+.UjBGL {
+	background: rgba(18, 18, 18, .3) !important;
+	width: 100px;
+	border-radius: 20px
+}
+.QVRyCf {
+	background: #647a9d9e !important
+}
+/*highlight*/
+.lWzCpb {
+	background: #ffffff29 !important;
+	color: #fff !important;
+	backdrop-filter: blur(10px) !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+	border-radius: 8px;
+	margin: 0px 10px 0px 0px
+}
+.wh9d9d {
+	background: #00000000 !important;
+	color: #fff !important;
+	transform: TranslateX(-25px)TranslateY(-10px);
+	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+.uch-xa span {
+	background: #00000000 !important;
+	color: #fff !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+	transform: TranslateX(-15px)TranslateY(15px)
+}
+.UUbT9.EyBRub .aajZCb, .A8SBwf.emcav .RNNXgb {
+	background: rgba(244, 244, 244, .79) !important;
+	backdrop-filter: blur(80px)
+}
+}
