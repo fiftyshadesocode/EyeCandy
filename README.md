@@ -5,29 +5,30 @@ See it to believe it!!
 
 <details>
   <summary>New Tab Page</summary>
-  <img width="960" alt="2025-04-25" src="https://github.com/user-attachments/assets/3e1cfd4e-5caf-442e-8a68-721136c477fa" />
-<img width="960" alt="2025-04-25 (1)" src="https://github.com/user-attachments/assets/a6046824-6514-4a14-a3c0-6f1fab2bebbd" />
+  <img width="480" alt="2025-04-25" src="https://github.com/user-attachments/assets/3e1cfd4e-5caf-442e-8a68-721136c477fa" />
+<img width="480" alt="2025-04-25 (1)" src="https://github.com/user-attachments/assets/a6046824-6514-4a14-a3c0-6f1fab2bebbd" />
 </details>
 
 <details><summary>Youtube Music</summary>
-<img width="960" alt="2025-04-25 (8)" src="https://github.com/user-attachments/assets/2c05d773-e8c2-43f4-ac2d-a48f31d9ed74" />
-<img width="960" alt="2025-04-25 (5)" src="https://github.com/user-attachments/assets/e522ace2-bcb4-4010-9823-6ede137bb288" />
+<img width="480" alt="2025-04-25 (8)" src="https://github.com/user-attachments/assets/2c05d773-e8c2-43f4-ac2d-a48f31d9ed74" />
+<img width="480" alt="2025-04-25 (16)" src="https://github.com/user-attachments/assets/20185dcd-94b4-4867-8f2a-f54b8ece2079" />
+
 </details>
 
 <details><summary>Youtube</summary>
-<img width="960" alt="2025-04-25 (9)" src="https://github.com/user-attachments/assets/d4665614-450a-47e9-9bf5-8a8ed648df6e" />
+<img width="480" alt="2025-04-25 (9)" src="https://github.com/user-attachments/assets/d4665614-450a-47e9-9bf5-8a8ed648df6e" />
 
 </details>
 
 <details><summary>Reddit</summary>
-<img width="960" alt="2025-04-25 (11)" src="https://github.com/user-attachments/assets/4381826f-935b-4558-b9bb-0bbedf90a7d1" />
-<img width="960" alt="2025-04-25 (12)" src="https://github.com/user-attachments/assets/fc9ec1fb-d3fb-41bd-8f80-a8461869357c" />
+<img width="480" alt="2025-04-25 (11)" src="https://github.com/user-attachments/assets/4381826f-935b-4558-b9bb-0bbedf90a7d1" />
+<img width="480" alt="2025-04-25 (12)" src="https://github.com/user-attachments/assets/fc9ec1fb-d3fb-41bd-8f80-a8461869357c" />
 
 </details>
 
 <details><summary>Github</summary>
-<img width="960" alt="2025-04-25 (13)" src="https://github.com/user-attachments/assets/0e81e0f1-c87d-42bb-aa69-6872b215d50a" />
-<img width="960" alt="2025-04-25 (14)" src="https://github.com/user-attachments/assets/49b3cc7f-c196-409d-98c5-a78378bb9002" />
+<img width="480" alt="2025-04-25 (13)" src="https://github.com/user-attachments/assets/0e81e0f1-c87d-42bb-aa69-6872b215d50a" />
+<img width="480" alt="2025-04-25 (14)" src="https://github.com/user-attachments/assets/49b3cc7f-c196-409d-98c5-a78378bb9002" />
 
 </details>
 
@@ -94,5 +95,7 @@ In the top left add a name and Click on Save<br>
 
 **Repeat for each website**
     
+Doing this much will acheive transparency however if you want the full eyecandy experience follow the steps below as well
 
+**Optional Step 1: Enabling and configuring the new tab page**
    
