@@ -95,6 +95,15 @@ In the top left add a name and Click on Save<br>
 
 **Repeat for each website**
     
+<details><summary>!! Bonus: You can set a keybind to toggle transparency by following the steps below !!</summary>
+Open settings go to extentions<br>
+Click on the three dots next to stylus<br>
+Click manage <br>
+Now click on the gear icon in the top right<br>
+Click on Manage Extension Shortcuts<br>
+Now scroll and find the turn all styles off shortcut and set it to whatever you like!
+</details>
+
 Doing this much will acheive transparency however if you want the full eyecandy experience follow the steps below as well
 
 **Optional Step 1: Enabling and configuring the new tab page**<br>
@@ -112,8 +121,10 @@ Doing this much will acheive transparency however if you want the full eyecandy 
 
 **Optional Step 2: Adding my tweaks to the UI**<br>
 --> Copy the css from the userChrome.css file in this repo and add to the browser by following the procedure given in Step2<br>
-   Read through the comments the black colored text enclosed as such /* */ 
-   And anything you want to disable just select it and press ctrl+/ to exclude it
+    Read through the comments the black colored text enclosed as such /* */ 
+    And anything you want to disable just select it and press ctrl+/ to exclude it
 
 /Note: if you decide to keep the icon changes you will have to download the icons from the icons folder in this repo and paste it in the chrome folder/
 /Also true if you do decide to keep the updated media player animation/
+
+Feel free to let me know if there are any issue as this is very much in active development
