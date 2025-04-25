@@ -114,3 +114,5 @@ Doing this much will acheive transparency however if you want the full eyecandy 
 --> Copy the css from the userChrome.css file in this repo and add to the browser by following the procedure given in Step2<br>
    Read through the comments the black colored text enclosed as such /* */ 
    And anything you want to disable just select it and press ctrl+/ to exclude it
+
+/Note: if you decide to keep the icon changes you will have to download the icons from the icons folder in this repo and paste it in the chrome folder/
