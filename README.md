@@ -97,5 +97,20 @@ In the top left add a name and Click on Save<br>
     
 Doing this much will acheive transparency however if you want the full eyecandy experience follow the steps below as well
 
-**Optional Step 1: Enabling and configuring the new tab page**
-   
+**Optional Step 1: Enabling and configuring the new tab page**<br>
+[O_1.1] Enable new tab page<br>
+--> Go to about config and set zen.urlbar.replace-newtab to false
+
+[O_1.2] Configuring the page <br>
+--> Dowload the bonjurr extentions from the link https://addons.mozilla.org/en-US/firefox/addon/bonjourr-startpage/ <br>
+    Click on the settings icon scroll down to the custom css section and add the following css
+
+    body{background:#fff0}
+    #background_overlay{background:#fff0}
+    #background{background:#fff0 !important}
+    #credit{display:none}
+
+**Optional Step 2: Adding my tweaks to the UI**<br>
+--> Copy the css from the userChrome.css file in this repo and add to the browser by following the procedure given in Step2<br>
+   Read through the comments the black colored text enclosed as such /* */ 
+   And anything you want to disable just select it and press ctrl+/ to exclude it
