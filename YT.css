@@ -1,0 +1,467 @@
+@-moz-document domain("www.youtube.com") {
+html {
+    background: rgba(255, 255, 255, .0) !important;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+body {
+    background: rgba(255, 255, 255, 0) !important;
+    backdrop-filter: none !important;
+}
+
+ytd-app {
+    background: rgba(255, 255, 255, .0) !important;
+}
+
+.style-scope {
+    background: rgba(255, 255, 255, .0) !important;
+}
+
+/*yt logo*/
+#logo.ytd-topbar-logo-renderer,
+ytd-yoodle-renderer.ytd-topbar-logo-renderer {
+    display: none !important
+}
+
+#country-code.ytd-topbar-logo-renderer {
+    display: none !important
+}
+
+.watch-main-col {
+    display: none !important
+}
+
+#buttons.ytd-masthead > .ytd-masthead:first-child {
+    display: none !important
+}
+
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
+    display: none !important
+}
+
+#sponsor-button.ytd-video-owner-renderer:not(:empty) {
+    display: none !important
+}
+
+
+
+/* Replies btn */
+.yt-spec-button-shape-next--call-to-action.yt-spec-button-shape-next--text {
+    color: #fdfdfd !important;
+    border-color: rgb(36, 94, 121) !important;
+}
+
+/* comment color */
+#content-text.ytd-comment-view-model {
+    color: #fff;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+#more-replies yt-button-shape button:hover, #less-replies yt-button-shape button:hover {
+    background: #0006 !important
+}
+
+#description .yt-core-attributed-string__link {
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+.yt-core-attributed-string--white-space-no-wrap {
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+span.yt-core-attributed-string--white-space-no-wrap {
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(0, 0, 0) !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+#vote-count-middle.ytd-comment-engagement-bar {
+    color: rgb(255, 255, 255) !important;
+    border-color: rgb(255, 255, 255) !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+ytd-comment-engagement-bar div ytd-toggle-button-renderer yt-button-shape button div yt-icon span div {
+    fill: #fff !important;
+}
+
+.ytd-subscribe-button-renderer {
+    display: none !important
+}
+
+/* To be done
+ytd-subscription-notification-toggle-button-renderer-next
+>div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
+    color: rgb(0, 0, 0) !important;
+}
+*/
+.yt-core-attributed-string--link-inherit-color {
+    color: #d3e9ee !important;
+}
+
+.yt-core-attributed-string__link {
+    color: #d3e9ee !important;
+}
+
+#description-text, #subtitle {
+    color: #d3e9ee !important;
+}
+
+#metadata-line, .truncated-text-wiz__truncated-text-content {
+    color: #d3e9ee !important;
+}
+
+#description #description-inner ytd-watch-info-text {
+    color: #fff !important
+}
+
+ytd-video-description-infocards-section-renderer #social-links div div {
+    color: #fff !important;
+    fill: #fff !important
+}
+
+ytd-video-description-transcript-section-renderer div p {
+    color: #e2e2e2 !important
+}
+
+.ytd-thumbnail-overlay-resume-playback-renderer {
+    /* text and hyperlinks */
+    background-color: #d3e9ee !important;
+}
+
+#video-title, #title, .dynamic-text-view-model-wiz__h1 {
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+.ytd-badge-supported-renderer span div {
+    fill: #e4e4e4 !important
+}
+
+.yt-tab-shape-wiz__tab {
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+.ytSegmentedLikeDislikeButtonViewModelSegmentedButtonsWrapper like-button-view-model toggle-button-view-model button-view-model button {
+    color: #e4e4e4 !important;
+    fill: #e4e4e4 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+.ytSegmentedLikeDislikeButtonViewModelSegmentedButtonsWrapper like-button-view-model toggle-button-view-model button-view-model button div yt-icon yt-animated-icon ytd-lottie-player lottie-component svg g path {
+    fill: #e4e4e4 !important;
+}
+
+.ytSegmentedLikeDislikeButtonViewModelSegmentedButtonsWrapper dislike-button-view-model toggle-button-view-model button-view-model button {
+    color: #e4e4e4 !important;
+    fill: #e4e4e4 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+.ytSegmentedLikeDislikeButtonViewModelSegmentedButtonsWrapper dislike-button-view-model toggle-button-view-model button-view-model button div yt-icon yt-animated-icon ytd-lottie-player lottie-component svg g path {
+    fill: #e4e4e4 !important;
+}
+
+#top-level-buttons-computed yt-button-view-model button-view-model button {
+    color: #e4e4e4 !important;
+    fill: #e4e4e4 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+ytd-menu-renderer yt-button-shape button div yt-icon span {
+    color: #e4e4e4 !important;
+    fill: #e4e4e4 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+/*like/dislike ratio bar*/
+#ryd-bar-container {
+    background: #fffb !important;
+    height: 4px !important;
+}
+
+#ryd-bar {
+    background: #467c91bb !important;
+}
+
+#ryd-dislike-tooltip {
+    background: #0007 !important;
+    border-radius: 60px;
+    transform: translateY(-24px) !important;
+}
+
+#label {
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+#simplebox-placeholder {
+    color: #fff !important;
+}
+
+ytd-badge-supported-renderer.ytd-channel-name div yt-icon span div svg {
+    color: #fff;
+}
+
+#label.ytd-compact-link-renderer, #subtitle.ytd-compact-link-renderer, #label.ytd-toggle-theme-compact-link-renderer, yt-formatted-string[ellipsis-truncate-styling] a.yt-formatted-string:last-child, yt-formatted-string[ellipsis-truncate-styling] span.yt-formatted-string:last-child {
+    color: #e7e7e7 !important;
+}
+
+.yt-simple-endpoint {
+    /* text and hyperlinks */
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+ytd-info-panel-container-renderer[title-style = "LINK"] .title.ytd-info-panel-container-renderer,
+.link-icon.ytd-info-panel-container-renderer {
+    color: #000 !important;
+    border-color: rgb(255, 255, 255) !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+.yt-core-attributed-string__link,
+#owner-sub-count,
+#channel-name,
+yt-formatted-string.ytd-channel-name .yt-simple-endpoint,
+.ytd-video-meta-block .inline-metadata-item:nth-child(3n) {
+    /* text and hyperlinks */
+    color: #d8edf0 !important;
+    border-color: rgb(255, 255, 255) !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+.html5-video-player,
+.html5-video-container,
+.ytp-player-content ytp-iv-player-content {
+    background-color: transparent !important;
+}
+
+.ytd-watch-flexy,
+.ytp-iv-player-content {
+    background: transparent !important
+}
+
+.ytd-channel-name .yt-simple-endpoint,
+.ytd-comment-renderer,
+ytd-author-comment-badge-renderer .ytd-channel-name {
+    /* bug fix */
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+/*left menu expanded*/
+#guide-wrapper.ytd-app {
+    background: rgba(255, 255, 255, .8) !important;
+    border-radius: 10px
+}
+
+#cinematics > div:nth-child(1) {
+    display: none !important;
+}
+
+#cinematics {
+    background: transparent !important;
+}
+
+/*notifications and share menus*/
+.tp-yt-iron-dropdown {
+    background: rgba(239, 244, 244, .89) !important;
+    border-radius: 10px;
+    backdrop-filter: blur(4.6px) !important;
+}
+
+.tp-yt-iron-dropdown yt-formatted-string {
+    color: #000 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+
+.tp-yt-iron-dropdown a {
+    color: #000 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+
+.tp-yt-iron-dropdown span.yt-core-attributed-string {
+    color: #000 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+
+.tp-yt-iron-dropdown span#vote-count-middle {
+    color: #000 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+
+.tp-yt-iron-dropdown svg {
+    fill: #000 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+
+.tp-yt-iron-dropdown span {
+    fill: #000 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+
+tp-yt-paper-dialog.style-scope {
+    background: rgba(244, 244, 244, .83) !important;
+    border-radius: 10px;
+    backdrop-filter: blur(4.6px) !important;
+}
+
+#about-container #links-section #link-list-container yt-channel-external-link-view-model div span a {
+    color: #000 !important;
+}
+
+table.ytd-about-channel-renderer tbody tr td a {
+    color: #000 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+ytd-engagement-panel-title-header-renderer[modern-panels]:not([ads-semantic-text]) #title-text.ytd-engagement-panel-title-header-renderer {
+    color: #000 !important;
+}
+
+#vote-count-middle.ytd-comment-action-buttons-renderer {
+    color: #fff !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+
+.ytSearchboxComponentInputBox {
+    background-color: #f4ebeb3d !important;
+    border-color: #5b8bb036 !important;
+    box-shadow: none !important
+}
+
+.ytSearchboxComponentSearchButton {
+    color: #f8f8f8 !important;
+    background: #ffffff24 !important;
+    border-color: #7fa9ac8a !important;
+}
+
+#share-panel-header div yt-community-post-section-renderer div {
+    color: #000 !important;
+    text-shadow: 0px 0px 0px #0000004f;
+}
+
+#share-panel-header div yt-community-post-section-renderer div yt-button-renderer yt-button-shape button div span {
+    color: #000 !important;
+    text-shadow: none;
+}
+
+#title.yt-share-panel-title-v15-renderer {
+    color: #000 !important;
+    text-shadow: none;
+}
+
+yt-share-target-renderer .yt-share-target-renderer[style-target = "title"] {
+    #title.yt-share-panel-title-v15-renderer {
+        color: #000 !important;
+        text-shadow: none;
+    }
+}
+
+/*channel page*/
+#above-the-fold div h1 yt-formatted-string {
+    /*tittle video page*/
+    color: #e4e4e4 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+#above-the-fold div div ytd-video-owner-renderer yt-formatted-string {
+    /*sub count video page*/
+    color: #e4e4e4 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+#above-the-fold div div ytd-video-owner-renderer div ytd-channel-name div div yt-formatted-string a {
+    color: #e4e4e4 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+#above-the-fold div div ytd-video-owner-renderer div ytd-badge-supported-renderer div yt-icon span div svg {
+    color: #1b2324 !important;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px !important;
+}
+
+/*chats*/
+/*
+#live-chat-banner {
+background: aliceblue !important}*/
+#message {
+    color: black !important
+}
+
+#contents {
+    background: rgba(121, 131, 151, .0) !important;
+}
+
+#chat-messages #contents {
+    background: rgba(249, 249, 249, .25) !important;
+}
+
+
+ytd-multi-page-menu-renderer div div ytd-comments ytd-item-section-renderer div ytd-comment-thread-renderer ytd-comment-view-model div #main #header div h3 a {
+    color: #575454 !important;
+    text-shadow: 0px 0px #fff !important
+}
+
+ytd-multi-page-menu-renderer div div ytd-comments ytd-item-section-renderer div ytd-comment-thread-renderer ytd-comment-view-model div #main #expander div yt-attributed-string {
+    color: #020202 !important;
+    text-shadow: 0px 0px #fff !important
+}
+
+ytd-multi-page-menu-renderer div div ytd-comments ytd-item-section-renderer div ytd-comment-thread-renderer ytd-comment-view-model div #main #action-buttons div ytd-button-renderer yt-button-shape button div .yt-core-attributed-string {
+    color: #e8e5e5 !important;
+    text-shadow: 0px 0px #000 !important
+}
+
+
+#movie_player:not([aria-label = "YouTube Video Player in Fullscreen"]) video {
+    border-radius: 10px !important;
+}
+
+/*some things in description(comment count, sort btn)*/
+#leading-section h2 yt-formatted-string {
+    color: #e0e6e7 !important;
+    text-shadow: 0px 0px 1px #000 !important
+}
+
+#additional-section span {
+    text-shadow: 0px 0px 1px #000 !important;
+    --yt-spec-text-primary: #e0e6e7
+}
+
+#collapse {
+    color: #e0e6e7 !important;
+    text-shadow: 0px 0px 1px #000 !important
+}
+
+#description-placeholder {
+    color: #e0e6e7 !important;
+    text-shadow: 0px 0px 1px #000 !important
+}
+
+.ytmPaidContentOverlayHost {
+    display: none !important
+}
+
+/*paid conetent banner*/
+/*.ytSearchboxComponentInputBoxDark
+    { background-color: hsl(188.55deg 10.64% 91.45% / 32%) !important;
+        border-color: hsla(207, 0%, 100%, .41) !important
+    }
+    .ytSearchboxComponentInput
+    { color: #000
+    }
+    .ytSearchboxComponentSearchButton
+    { color: #000
+    }
+    .ytSearchboxComponentSearchButtonDark
+    { border: 1px solid hsla(183, 63%, 99%, .28);
+
+    }*/
+}
