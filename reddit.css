@@ -1,0 +1,277 @@
+@-moz-document domain("reddit.com") {
+body,
+html {
+    background: rgba(255, 255, 255, 0.09) !important;
+}
+#comment-tree {
+    background: rgba(255, 255, 255, 0) !important;
+}
+.flair-content, p, .text-14, .text-12 {
+    color: #fff !important;
+}
+
+a {
+    color: #e3f3ff !important;
+}
+.flex.items-center.text-neutral-content-weak.w-max {
+    color: #fffefe
+}
+code {
+    background: #ddebeb21
+}
+#right-sidebar-container {
+    background: #ffffff40 !important
+}
+.description {
+    color: #fffefe
+}
+
+.bg-neutral-background {
+    --color-neutral-background: #eeeeee3d;
+}
+
+div {
+    --color-neutral-background: #eee0;
+    --color-neutral-background-hover: #0002
+}
+shreddit-composer {
+    --color-secondary-weak: #fff
+}
+header.bg-neutral-background {
+    backdrop-filter: blur(80px)
+}
+
+.bg-neutral-background-weak,
+.text-neutral-content-strong,
+.bg-neutral-background {
+    background: rgba(215, 13, 13, 0) !important;
+}
+.grid-container {
+    background: rgba(87, 84, 84, .29) !important;
+}
+
+.bg-\[color\:var\(--shreddit-content-background\)\] {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+.threadline,
+.shreddit-post,
+aside,
+comment-body-header,
+shreddit-comment-tree {
+    background-color: transparent !important;
+}
+
+
+.notification-item.unread-notification {
+    background: #fff0
+}
+notification-item a div[data-testid = "notification-item"]:hover {
+    background: #0002 !important;
+    border-radius: 10px
+}
+mark-all-messages-read button {
+    color: #fff !important
+}
+div[data-testid = "notification-item"] div {
+    color: #fff !important
+}
+.text-neutral-content-strong {
+    --color-neutral-content-strong: #fff
+}
+.text-neutral-content {
+    --color-neutral-content: #fff !important
+}
+.text-secondary {
+    --color-secondary: #fff !important
+}
+.text-neutral-content-weak {
+    --color-neutral-content-weak: #fff !important
+}
+.text-secondary-plain {
+    --color-secondary-plain: #fff !important
+}
+.bg-neutral-background-medium {
+    --color-neutral-background-medium: #0002
+}
+shreddit-sort-dropdown, search-dynamic-id-cache-controller {
+    background: #fff8;
+    border-radius: 6px
+}
+shreddit-comment-action-row {
+    background: #fffa;
+    border-radius: 6px
+}
+shreddit-comment-action-row .text-12 {
+    color: #5c6c74 !important
+}
+/*comment reply box*/
+shreddit-composer p, shreddit-composer span, shreddit-composer button, shreddit-composer {
+    color: #000;
+    --color-secondary-weak: #000 !important;
+    --button-color-background-default: #0001 !important;
+}
+/*left sidebar*/
+left-nav-top-section {
+    --color-secondary: #fff;
+    --color-neutral-background-hover: #fff
+}
+#moderation_section faceplate-tracker li:hover a span span {
+    color: #000 !important
+}
+left-nav-moderation-controller {
+    background: #fff4 !important;
+    border-radius: 6px;
+    display: block;
+}
+#moderation_section {
+    --color-neutral-background-hover: #fff !important
+}
+#multireddits_section {
+    background: #fff4 !important;
+    border-radius: 6px;
+    display: block;
+}
+#multireddits_section custom-feed-edit-button li div span {
+    color: #000 !important
+}
+reddit-recent-pages {
+    background: #fff4 !important;
+    border-radius: 6px;
+    display: block;
+}
+#communities_section {
+    background: #fff4 !important;
+    border-radius: 6px;
+    display: block;
+}
+#communities_section li div span {
+    color: #000 !important
+}
+/*homepage right sidebar*/
+recent-posts {
+    --color-neutral-background-weak: #fff0
+}
+recent-posts .text-12, recent-posts .text-14, recent-posts .text-neutral-content-weak {
+    color: #000 !important
+}
+
+#right-sidebar-container {
+    --color-neutral-content-weak: #fff;
+    --color-neutral-content:#fff;
+    --color-neutral-content-strong:#fff;
+        
+}
+#right-sidebar-container strong{
+    color: #fff;        
+}
+
+div[slot = "dropdown-items"] .text-14, div[slot = "dropdown-items"] .text-12, div[slot = "dropdown-items"] .text-secondary {
+    color: #000 !important;
+    fill: #000 !important;
+    --color-secondary: #000
+}
+/*select community to post dropdown*/
+li[class = "list-none"] .text-12, li[class = "list-none"] .text-14 {
+    color: #000 !important
+}
+/*user name and achievements*/
+faceplate-hovercard .text-12, faceplate-hovercard .text-14, faceplate-hovercard .text-neutral-content-weak, faceplate-hovercard a {
+    color: #000 !important
+}
+
+/*Profile btn menu*/
+#user-drawer-content .text-12, #user-drawer-content .text-14, #user-drawer-content .text-neutral-content-weak, #user-drawer-content svg {
+    color: #000 !important
+}
+faceplate-hovercard .subreddit-name, .author-name, .pr-3xs {
+    color: #fff !important
+}
+/*user flair*/
+shreddit-comment faceplate-hovercard span {
+    background: #fff1 !important
+}
+/*chat btn on user hover*/
+shreddit-comment faceplate-hovercard reddit-chat-anchor a {
+    background: #000 !important
+}
+
+span {
+    --color-tone-4: #0003
+}
+/*user name*/
+shreddit-comment .author-name-meta a {
+    color: #fff !important
+}
+faceplate-tracker[noun = "user_profile"] span {
+    color: #fff
+}
+/*sub name*/
+article .text-tone-1 {
+    color: #fff !important
+}
+/*code block*/
+shreddit-comment pre {
+    background: #fff2;
+    border-radius: 6px;
+}
+#right-sidebar-container {
+    padding: 10px
+}
+/*comment  hover bg on profile page*/
+div[class = "hover:bg-neutral-background-hover relative"]:hover {
+    background: rgba(0, 0, 0, 0.43) !important;
+}
+
+shreddit-comments-page-tools {
+    /*sigle comment thread btn*/
+    --color-neutral-content-weak: #fff;
+    /*see full discusion btn*/
+    --color-primary: #fff
+}
+/*color for right sidebar*/
+faceplate-tabpanel {
+    --color-neutral-content-weak: #fff !important;
+    --color-a-default: #fff !important;
+}
+
+.button-secondary {
+    --button-color-background-default: #0001;
+    --button-color-background-focus: #0002;
+    --button-color-background-hover: #fff2
+}
+#header-action-item-chat-button {
+    --button-color-text-default: #fff
+}
+shreddit-comment {
+    --color-neutral-content-strong: #fff !important;
+    /*--color-neutral-background:rgba(255,255,255,0.03) !important*/
+}
+/*create post page*/
+faceplate-textarea-input {
+    background: #fffa !important;
+    height: 50px
+}
+#post-composer_bodytext {
+    background: #fffa !important;
+    border-radius: 20px
+}
+
+div[class = "flex flex-none flex-row gap-2xs items-center flex-nowrap"] {
+    --color-neutral-background-selected: #fff1
+}
+author-flair-event-handler span {
+    background: #fff1 !important
+}
+/*time of notification*/
+notification-item .text-secondary-weak {
+    --color-secondary-weak: #fff
+}
+
+notification-context-menu {
+    --color-neutral-background: #fff8 !important
+}
+/*community highlights*/
+community-highlight-card h2, community-highlight-card span {
+    color: #fff
+}
+}
