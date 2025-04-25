@@ -1,6 +1,6 @@
 ![Eyecandy Theme](https://github.com/user-attachments/assets/dd58889d-03ce-4dad-a04b-98269f1c4611)
 
-<em>Eyecandy transforms your browsing experience with stunning visuals and transparency, creating a modern, elegant look that enhances your interaction with the web while maintaining readability and practicality.</em>
+<em>Eyecandy transforms your browsing experience with stunning visuals and transparency, creating a modern, elegant look that enhances your interaction with the web while maintaining readability and practicality.</em><br>
 See it to believe it!!
 
 <details>
@@ -116,3 +116,4 @@ Doing this much will acheive transparency however if you want the full eyecandy 
    And anything you want to disable just select it and press ctrl+/ to exclude it
 
 /Note: if you decide to keep the icon changes you will have to download the icons from the icons folder in this repo and paste it in the chrome folder/
+/Also true if you do decide to keep the updated media player animation/
