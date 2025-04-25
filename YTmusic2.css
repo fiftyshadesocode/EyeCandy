@@ -1,0 +1,6 @@
+@-moz-document url-prefix("https://music.youtube.com/channel/") {
+.image.style-scope.ytmusic-fullbleed-thumbnail-renderer {
+    display: block !important;
+    mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 30%,rgba(0, 0, 0, 0.01) 70%, rgba(0, 0, 0, 0) 100%);
+}
+}
