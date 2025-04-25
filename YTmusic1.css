@@ -1,0 +1,204 @@
+@-moz-document domain("music.youtube.com") {
+html {
+	background: rgba(255, 255, 255, 0) !important;
+	width: 100vw !important;
+	height: 100vh !important;
+}
+body {
+	background: rgba(255, 255, 255, 0) !important;
+	backdrop-filter: none !important;
+}
+.image.style-scope.ytmusic-fullbleed-thumbnail-renderer {
+	display: none
+}
+.style-scope {
+	background: rgba(255, 255, 255, .0) !important;
+}
+
+/*acc settings*/
+#contentWrapper ytd-multi-page-menu-renderer.ytmusic-popup-container {
+	background: rgba(255, 255, 255, .75) !important;
+	backdrop-filter: blur(200px) !important;
+}
+#contentWrapper ytd-multi-page-menu-renderer.ytmusic-popup-container #header div yt-formatted-string {
+	color: #000 !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+#contentWrapper ytd-multi-page-menu-renderer.ytmusic-popup-container #container #sections yt-icon {
+	fill: #000 !important;
+}
+#contentWrapper ytd-multi-page-menu-renderer.ytmusic-popup-container #container #sections yt-formatted-string {
+	color: #000 !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+
+
+/*context menu*/
+#contentWrapper ytmusic-menu-popup-renderer.ytmusic-popup-container {
+	background: rgba(255, 255, 255, .75) !important;
+	backdrop-filter: blur(2px) !important;
+}
+ytmusic-menu-service-item-renderer svg {
+	fill: black
+}
+.icon.ytmusic-menu-navigation-item-renderer {
+	fill: black
+}
+.icon.ytmusic-toggle-menu-service-item-renderer {
+	fill: black
+}
+#primaryProgress {
+	background: #154145de !important;
+}
+.slider-knob-inner {
+	background: #89b8d1 !important;
+}
+
+.slider-knob-inner.tp-yt-paper-slider {
+	border: #fff 2px solid !important;
+}
+
+
+
+#progress-bar div #sliderKnob::after {
+	content: ' ';
+	background: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjExYjM5MDMxY2MwN2IwZDQ5ZjNlNjRlZDY2MGRjNjgwYzI1MGI2NSZjdD1z/Y8bAdBxtKREVcuDNyH/giphy.gif) !important;
+	height: 40px;
+	width: 40px;
+	background-size: 100% !important;
+	background-repeat: no-repeat !important;
+	transform: translate(0px, -60px) scale(-1, 1) !important;
+	z-index: 10 !important;
+	position: relative !important;
+	display: block !important;
+}
+
+ytmusic-menu-service-item-renderer yt-formatted-string {
+	color: black !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+ytmusic-menu-navigation-item-renderer yt-formatted-string {
+	color: black !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+ytmusic-toggle-menu-service-item-renderer yt-formatted-string {
+	color: black !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+
+
+
+#toggleBar {
+	background: #c6dadcb3 !important
+}
+#toggleButton {
+	background: #c6dadcb3 !important
+}
+
+
+/*control bar bottom*/
+ytmusic-player-bar.ytmusic-app {
+	background: #d1d4d459 !important;
+	backdrop-filter: blur(.6px);
+}
+ytmusic-player-bar.ytmusic-app .middle-controls-buttons ytmusic-menu-renderer yt-button-shape button div yt-icon svg {
+	fill: #fff !important
+}
+ytmusic-player-bar.ytmusic-app .right-controls {
+	color: #fff !important
+}
+
+
+/*queue*/
+ytmusic-player-queue-item[play-button-state = "playing"] {
+	background: #cfddde59 !important
+}
+ytmusic-player-queue-item[play-button-state = "playing"] yt-formatted-string {
+	color: #00000080 !important;
+	text-shadow: rgba(255, 255, 255, .3) 0px 0px 0px !important;
+}
+ytmusic-player-queue-item yt-formatted-string {
+	color: #fffc !important
+}
+
+
+
+/*search*/
+.search-container {
+	opacity: 0
+}
+.search-container:hover {
+	opacity: 1;
+	transition: opacity 0.3s ease-in;
+}
+#suggestion-list {
+	background: #e8e2e2c2 !important;
+	backdrop-filter: blur(.6px) !important;
+}
+#suggestion-list ytmusic-search-suggestions-section div ytmusic-search-suggestion yt-formatted-string {
+	color: #3a3e40 !important;
+	text-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px !important;
+}
+#suggestion-list ytmusic-search-suggestions-section div ytmusic-search-suggestion yt-icon svg {
+	fill: #3a3e40 !important
+}
+
+/*upgrade btn*/
+#sections.ytmusic-guide-renderer ytmusic-guide-section-renderer div :nth-child(4) {
+	display: none !important
+}
+#mini-guide ytmusic-guide-renderer div ytmusic-guide-section-renderer div :nth-child(4) {
+	display: none !important
+}
+/*
+#song-media-window {
+    width: 20dvw !important;
+    height: 20dvh !important;
+}*/
+.time-info {
+	color: white !important
+}
+
+picture.ytmusic-logo img {
+	display: none !important
+}
+@-moz-keyframes rotate {
+	0% {
+		rotate: 0deg
+	}
+
+	100% {
+		rotate: 360deg
+	}
+}
+ytmusic-add-to-playlist-renderer.ytmusic-popup-container {
+	background: #fff8 !important;
+	backdrop-filter: blur(80px)
+}
+
+
+picture.ytmusic-logo {
+	content: url(https://i.postimg.cc/xd68WY4s/icons8-youtube-music-240-1.png@);
+	height: 30px;
+	translate: 0px -4px;
+	animation: rotate 8s infinite linear;
+}
+
+ytmusic-item-thumbnail-overlay-renderer ytmusic-background-overlay-renderer.ytmusic-item-thumbnail-overlay-renderer {
+	background: #0007 !important;
+}
+
+ytmusic-notification-action-renderer {
+	z-index: 5;
+	position: fixed;
+}
+#notification tp-yt-paper-toast.yt-notification-action-renderer {
+	background: #fff8 !important;
+}
+.ytmusic-responsive-list-item-renderer {
+	color: #fff !important;
+}
+yt-formatted-string {
+	text-shadow: rgba(0, 0, 0, 0.3) 1px 0px 2px;
+}
+}
