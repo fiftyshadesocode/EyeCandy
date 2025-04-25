@@ -1,0 +1,589 @@
+@-moz-document domain("github.com") {
+html, body {
+    background: #fff0 !important;
+    height: 100dvh
+}
+
+div.logged-in {
+    background: #fff0 !important;
+}
+
+.application-main, .Box-sc-g0xbh4-0 {
+    background: #fff0 !important;
+}
+
+.application-main div[class = "color-bg-default"] {
+    background: #fff0 !important;
+}
+
+.application-main div[class = "d-md-flex feed-background"] {
+    background: #fff0 !important;
+}
+
+.application-main aside[class = "feed-left-sidebar col-md-4 col-lg-3 color-border-muted border-bottom hide-md hide-sm border-right color-bg-default"] {
+    background: #fff0 !important;
+}
+
+.copilotPreview__suggestions li button {
+    background: #fff8 !important
+}
+
+header div span svg {
+    fill: #fff !important
+}
+
+header dialog div span svg {
+    fill: #000 !important;
+}
+
+.search-suggestions svg {
+    fill: #000 !important
+}
+
+.color-fg-muted {
+    --fgColor-muted: #fff
+}
+
+button[value = "Create a new repository"], .btn {
+    background: #0001 !important;
+    box-shadow: 0px 0px 2px #fff5 !important
+}
+
+.FormControl-caption {
+    --fgColor-muted: #fff
+}
+
+.FormControl-label {
+    --fgColor-default: #fff
+}
+
+.color-fg-accent, .Link {
+    --fgColor-accent: #fff
+}
+
+.feed-item-content div {
+    --fgColor-default: #fff
+}
+
+.feed-item-content div {
+    color: #fff
+}
+
+p.notice {
+    color: #fff
+}
+
+a {
+    --fgColor-accent: #fff
+}
+
+.btn {
+    color: #fff;
+}
+
+.btn svg {
+    fill: #fff;
+}
+
+article .color-bg-overlay {
+    background: #fff3 !important
+}
+
+.AppHeader {
+    background: #fff0 !important
+}
+
+dialog#dialog-af3b27ef-bead-40c9-89a6-0ec298813a3b {
+    background: #fffc !important
+}
+
+dialog#dialog-af3b27ef-bead-40c9-89a6-0ec298813a3b span, dialog#dialog-af3b27ef-bead-40c9-89a6-0ec298813a3b a {
+    color: #000 !important
+}
+
+dialog#dialog-af3b27ef-bead-40c9-89a6-0ec298813a3b svg {
+    fill: #000 !important
+}
+
+.ActionListItem-label {
+    color: #000;
+}
+
+div[class = "ActionListContent p-3 color-bg-default"] span {
+    color: #000 !important
+}
+
+.feed-item-content {
+    background: #0000
+}
+
+div[class = "feed-item-content d-flex flex-column pt-2 pb-2 border color-border-default rounded-2 color-shadow-small width-full height-fit"] {
+    background: #fff3
+}
+
+
+/*search results page*/
+.Box-sc-g0xbh4-0 {
+    color: #fff;
+}
+
+.Box-sc-g0xbh4-0 button {
+    background: #0001 !important;
+    box-shadow: 0px 0px 2px #fff5 !important;
+    color: #fff;
+}
+
+.Box-sc-g0xbh4-0 button svg {
+    fill: #fff
+}
+
+.eYMDQN {
+    border-color: #fff
+}
+
+.kPmFhj {
+    --fgColor-muted: #fff
+}
+
+.prc-ActionList-ItemLabel-TmBhn {
+    color: #fff
+}
+
+.prc-ActionList-LeadingVisual-dxXxW svg {
+    fill: #fff
+}
+
+.prc-Dialog-Dialog-luvDS .prc-ActionList-ItemLabel-TmBhn, .prc-Overlay-Overlay-dVyJl .prc-ActionList-ItemLabel-TmBhn {
+    color: #000 !important;
+}
+
+.prc-Dialog-Dialog-luvDS .prc-ActionList-LeadingVisual-dxXxW svg, .prc-Overlay-Overlay-dVyJl .prc-ActionList-VisualWrap-rfjV- svg {
+    fill: #000
+}
+
+.prc-Dialog-Dialog-luvDS {
+    height: 100%;
+    overflow-y: scroll;
+    background: #fffc;
+    backdrop-filter: blur(30px)
+}
+
+/*repo page*/
+span[data-testid = "path-name-segment"] {
+    color: #fff
+}
+
+.react-directory-filename-cell a, .react-directory-commit-message a {
+    color: #fff !important
+}
+
+table.Box-sc-g0xbh4-0 tr:hover {
+    background: #0002
+}
+
+table.Box-sc-g0xbh4-0 tr.Box-sc-g0xbh4-0 td {
+    background: #fff6 !important
+}
+
+table.Box-sc-g0xbh4-0 a, table.Box-sc-g0xbh4-0 span, table.Box-sc-g0xbh4-0 relative-time {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+#__primerPortalRoot__ a, #__primerPortalRoot__ span {
+    color: #000 !important;
+    fill: #000 !important;
+}
+
+#__primerPortalRoot__ .ffYNcU {
+    background: #fffc !important;
+    backdrop-filter: blur(80px)
+}
+
+#__primerPortalRoot__ .prc-Dialog-Backdrop-ugYqZ {
+    background: #0001 !important;
+    backdrop-filter: blur(80px)
+}
+
+#__primerPortalRoot__ .ffYNcU span.prc-TooltipV2-Tooltip-cYMVY {
+    color: #fff !important
+}
+
+.Layout-sidebar h2, .Layout-sidebar p, .Layout-sidebar a, .Layout-sidebar span, .Layout-sidebar relative-time {
+    color: #fff !important
+}
+
+.Layout-sidebar svg {
+    fill: #fff
+}
+
+.Popover-message h2, .Popover-message p, .Popover-message a, .Popover-message span, .Popover-message div {
+    color: #000 !important
+}
+
+.Popover-message svg {
+    fill: #000 !important
+}
+
+.topic-tag {
+    background: #0001
+}
+
+span.Box-sc-g0xbh4-0 span, span.Box-sc-g0xbh4-0 strong.color-fg-default {
+    color: #fff !important
+}
+
+#repository-container-header strong[itemprop = "name"] a {
+    color: #fff !important
+}
+
+#repository-container-header span.Label, #repository-container-header span[data-component = "trailingAction"] {
+    color: #fff
+}
+
+#repository-container-header {
+    background: #0001
+}
+
+.SelectMenu-footer {
+    background: #23617066
+}
+
+.UnderlineNav-body a, .UnderlineNav-body span {
+    color: #fff !important
+}
+
+.UnderlineNav-body svg {
+    fill: #fff !important
+}
+
+.AppHeader-context-full span {
+    color: #fff
+}
+
+.search-feedback-prompt {
+    display: none !important
+}
+
+.search-suggestions {
+    background: #fffa !important;
+    backdrop-filter: blur(30px)
+}
+
+.AppHeader-search-wrap #qb-input-query {
+    color: #fff
+}
+
+.AppHeader-search-wrap label[for = "AppHeader-searchInput"] svg {
+    fill: #fff
+}
+
+#copilot-chat-header-button svg, #global-copilot-menu-button svg {
+    fill: #fff
+}
+
+div[class = "Box-sc-g0xbh4-0 kPjyfm"] span, div[class = "Box-sc-g0xbh4-0 kPjyfm"] a, div[class = "Box-sc-g0xbh4-0 kPjyfm"] relative-time {
+    color: #fff !important
+}
+
+div[class = "Box-sc-g0xbh4-0 kPjyfm"] li:hover {
+    background: #0002
+}
+
+div[class = "Box-sc-g0xbh4-0 kPjyfm"] div[id = ":rd:-list-view-metadata"] {
+    background: #0006
+}
+
+.FilterInputWrapper-module__Box_1--vewob {
+    background: #fff4
+}
+
+#repository-results span {
+    color: #000 !important
+}
+
+.prc-Button-ButtonBase-c50BI {
+    background: #0001 !important;
+    box-shadow: 0px 0px 2px #fff5 !important;
+    color: #fff;
+}
+
+.prc-Button-ButtonBase-c50BI svg {
+    fill: #fff
+}
+
+a[aria-describedby = ":ra:-loading-announcement"] {
+    background: #fff2 !important;
+    box-shadow: 0px 0px 2px 1px #0005 !important;
+    color: #fff;
+}
+
+div[class = "highlight highlight-source-shell notranslate position-relative overflow-auto"] pre {
+    background: #0001 !important
+}
+
+.MarkdownEditor-module__container--LVNU1 div.Shared-module__CommentBox--x3rre.MarkdownEditor-module__inputWrapper--MtV0d {
+    background: #0001 !important
+}
+
+header.MarkdownEditor-module__header--i0pok {
+    background: #0000 !important
+}
+
+.InlineAutocomplete-module__container--UwGMb span {
+    background: #fff9!important
+}
+
+.MarkdownEditor-module__container--LVNU1 .TabNav__TabNavTabList-sc-pwdi4r-1 button, .Footer-module__footerWrapper--cGLx2 .prc-Button-Label-pTQ3x {
+    color: #fff !important
+}
+
+.MarkdownEditor-module__previewViewerWrapper--ZCTeH {
+    background: #0003
+}
+
+div[class = "Shared-module__CommentBox--x3rre MarkdownEditor-module__previewWrapper--UHhTL"] {
+    background: #0000
+}
+
+/*pull request page*/
+div[class = "Box mt-3 Box--responsive hx_Box--firstRowRounded0"] {
+    background: #0002
+}
+
+div[class = "Box mt-3 Box--responsive hx_Box--firstRowRounded0"] #js-issues-toolbar {
+    background: #0000
+}
+
+div[class = "Box mt-3 Box--responsive hx_Box--firstRowRounded0"] div[data-pjax = "#repo-content-pjax-container"] {
+    background: #0000
+}
+
+div[class = "Box mt-3 Box--responsive hx_Box--firstRowRounded0"] a, div[class = "Box mt-3 Box--responsive hx_Box--firstRowRounded0"] .btn-link {
+    color: #fff !important
+}
+
+.SelectMenu-modal a, .SelectMenu-modal strong, .SelectMenu-modal div, .SelectMenu-modal span {
+    color: #000 !important
+}
+
+.SelectMenu-modal svg {
+    fill: #000 !important
+}
+
+a[data-ga-click = "Repository, go to compare view, location:pull request list; text:New pull request"] {
+    background: #fff2 !important;
+    box-shadow: 0px 0px 2px 1px #0005 !important;
+    color: #fff;
+}
+
+a[selected_link = "repo_pulls"], a[selected_link = "repo_pulls"] span {
+    color: #fff
+}
+
+.Counter {
+    background: #0004
+}
+
+/*Pull request details page*/
+.gh-header {
+    background: #0000
+}
+
+.gh-header, .gh-header a, .gh-header div {
+    color: #fff !important
+}
+
+.gh-header span {
+    color: #000
+}
+
+a[class = "tabnav-tab flex-shrink-0 selected"] {
+    background: #fff9 !important
+}
+
+a[class = "tabnav-tab flex-shrink-0 "] {
+    color: #fff
+}
+
+a[class = "tabnav-tab flex-shrink-0 "] svg {
+    fill: #fff
+}
+
+.timeline-comment-header {
+    background: #5aa9b488
+}
+
+.timeline-comment {
+    background: #ffff
+}
+
+.timeline-comment-group::before {
+    background: #5aa9b488 !important
+}
+
+.timeline-comment a {
+    color: #000
+}
+
+.timeline-comment svg {
+    fill: #000
+}
+
+.js-details-container a {
+    color: #fff !important
+}
+
+.js-details-container #dialog-show-commit-badge-verified-6fd90f02-dialog {
+    background: #fffa !important
+}
+
+.js-details-container #dialog-show-commit-badge-verified-6fd90f02-dialog {
+    color: #094e1a !important
+}
+
+.js-details-container .color-fg-success svg {
+    color: #9df3b2
+}
+
+.discussion-timeline-actions {
+    background: #0000
+}
+
+.MergeBox-module__mergeBoxAdjustBorders--G2Hf8 p {
+    color: #fff !important
+}
+
+.borderColor-success-emphasis {
+    background: #094e1a33
+}
+
+#partial-new-comment-form-actions .ml-1 {
+    background: #fff0 !important
+}
+
+#partial-discussion-sidebar {
+    background: #fffa;
+    padding: 0px 20px 20px;
+    border-radius: 20px
+}
+
+#partial-discussion-sidebar a, #partial-discussion-sidebar span, #partial-discussion-sidebar p, #partial-discussion-sidebar div {
+    color: #000 !important
+}
+
+#partial-discussion-sidebar svg {
+    fill: #000
+}
+
+.protip, .protip a {
+    color: #fffc
+}
+
+.protip strong {
+    color: #fff
+}
+
+/*PR commits*/
+.CommitGroup-module__panel--tvFMx {
+    background: #0000 !important
+}
+
+.CommitGroup-module__panel--tvFMx li {
+    background: #fff2 !important
+}
+
+.CommitGroup-module__panel--tvFMx span, .CommitGroup-module__panel--tvFMx a, div[data-testid = "commits-list"] h3 {
+    color: #fff !important
+}
+
+.CommitGroup-module__panel--tvFMx button[data-variant = "success"] {
+    background: #094e1a66 !important
+}
+
+.prc-Timeline-TimelineBadge-BqMiN svg {
+    fill: #000
+}
+
+.prc-Timeline-TimelineBadge-BqMiN {
+    background: #fff !important
+}
+
+.TabNav__TabNavLink-sc-pwdi4r-3[aria-selected = "false"], .TabNav__TabNavLink-sc-pwdi4r-3[aria-selected = "false"] span {
+    color: #fff !important
+}
+
+.TabNav__TabNavLink-sc-pwdi4r-3[aria-selected = "false"] svg {
+    fill: #fff !important
+}
+
+.prc-PageHeader-Description-kFg8r span, .prc-PageHeader-Description-kFg8r a {
+    color: #fff !important
+}
+
+.prc-PageHeader-Description-kFg8r a.PullRequestHeaderSummary-module__truncateBranch--u_0Mq {
+    color: #000 !important
+}
+
+.prc-Heading-Heading-6CmGO span {
+    color: #fff !important
+}
+
+diff-layout .pr-toolbar .diffbar {
+    background: #0000
+}
+
+diff-layout .pr-toolbar .diffbar strong, diff-layout .pr-toolbar .diffbar summary {
+    color: #fff !important
+}
+
+diff-layout .pr-toolbar .diffbar span.Button-label {
+    color: #000 !important
+}
+
+#review-changes-modal label, #review-changes-modal span {
+    color: #000 !important
+}
+
+.file-header {
+    background: #0002
+}
+
+.file-header a {
+    color: #000 !important
+}
+
+.js-file-content {
+    background: #fffd
+}
+
+.Popover-message .btn-sm {
+    color: #000
+}
+
+/*actions*/
+.PageLayout-content-centered-xl a, .PageLayout-content-centered-xl span, .PageLayout-content-centered-xl div, .PageLayout-content-centered-xl p {
+    color: #000 !important
+}
+
+.PageLayout-content-centered-xl svg {
+    color: #000 !important
+}
+
+.Box-sc-g0xbh4-0 .hide-sm, .Box-sc-g0xbh4-0 .prc-SegmentedControl-Content-gnQ4n, .Box-sc-g0xbh4-0 div[class = "bgColor-muted border-top rounded-bottom-2 px-3 py-2 flex-1"] {
+    background: #0000 !important
+}
+
+.Box-sc-g0xbh4-0 .gtTaSn {
+    border: 0px
+}
+
+.Box-sc-g0xbh4-0 textarea[aria-label = "file content"] {
+    background: #fffc !important;
+    backdrop-filter: blur(80px)
+}
+
+.Box-sc-g0xbh4-0 textarea[aria-label = "file content"] {
+    color: #000 !important
+}
+}
