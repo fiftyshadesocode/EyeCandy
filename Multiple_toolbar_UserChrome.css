@@ -9,15 +9,15 @@
 /*adds transparency to compact mode sidebar*/
 :root[zen-compact-mode="true"] {
     #navigator-toolbox #titlebar {
-        background: rgba(255, 255, 255, 0.8) !important;
-        backdrop-filter: blur(80px);
+        background: rgba(255, 255, 255, 0) !important;
+        backdrop-filter: blur(0px);
     }
 }
 
 
     browser {
-        background: rgba(255, 255, 255, 0.08) !important;
-        backdrop-filter: blur(20px) !important;
+        background: rgba(255, 255, 255, 0) !important;
+        backdrop-filter: blur(10px) !important;
     }
 
     /*makes text in urlbar white*/
@@ -42,8 +42,8 @@
     /*color of urlbar when expanded*/
     #urlbar[breakout-extend="true"] {
         & #urlbar-background {
-            background: #0003 !important;
-            backdrop-filter: blur(20px) !important;
+            background: #fff2 !important;
+            backdrop-filter: blur(10px) !important;
         }
     }
 
@@ -77,16 +77,16 @@
     }
 
     /*replaces the defualt svg for the back and forward button*/
-    /* #back-button {
+    #back-button {
         list-style-image: url(arrowback.svg) !important;
     }
 
     #forward-button {
         list-style-image: url(arrowforward.svg) !important;
-    } */
+    }
 
     /*enable if you add the playback speed extention*/
-    /* #playbackspeed_waldemar_b-BAP {
+    #playbackspeed_waldemar_b-BAP {
         list-style-image: url(speed.svg) !important;
     }
 
@@ -101,7 +101,7 @@
 
     #playbackspeed_waldemar_b-BAP stack {
         transform: translateY(0.7px) !important;
-    } */
+    }
 
 
 
@@ -260,7 +260,7 @@ menuseparator {
     height: 100vh;
     top: -5px;
     left: -380px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0,0,0, 0.3);
     backdrop-filter: blur(1px);
     z-index: -1;
 }
