@@ -64,14 +64,16 @@ Follow the steps below to acheive it!!
 --> Paste the following css
   
     #main-window{
-    background:  url(link_to_image) !important;
+    background:  url("wall/backdrop.png") !important;
     display: block !important;
-    width:100vw;
-    height:auto;
-    background-repeat:no-repeat; }
+    width:100dvw !important;
+    height:100dvh !important;
+    background-repeat:no-repeat; !important;
+    background-size:cover !important;}
     #browser {
-    background: rgba(0, 0, 0, 0) !important;
+    background: rgba(0, 0, 0, 0.02) !important;
     backdrop-filter: blur(10px);  }
+
 
 
 --> replace the text 'link_to_image' by either the link to the image or the path to the image<br>
