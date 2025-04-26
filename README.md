@@ -134,5 +134,7 @@ https://addons.mozilla.org/en-US/firefox/addon/playback-speed/<br>
 https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/<br>
 - Better Lyrics: Enhance your YouTube Music experience with time-synced lyrics, multilingual support, and real-time translations. It even lets you seek specific parts of a song by clicking on the lyrics.<br>
 https://addons.mozilla.org/en-US/firefox/addon/better-lyrics/<br>
-
+- Zen Back Forward: Hide Back and Forward button when you don't need them<br>
+https://zen-browser.app/mods/c8d9e6e6-e702-4e15-8972-3596e57cf398/
+ 
 Feel free to let me know if there are any issue as this is very much in active development
