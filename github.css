@@ -169,6 +169,14 @@ div[class = "feed-item-content d-flex flex-column pt-2 pb-2 border color-border-
 }
 
 /*repo page*/
+div.Box-sc-g0xbh4-0.jPdcfu {
+    background: #fffa !important
+}
+
+div.Box-sc-g0xbh4-0.jPdcfu svg {
+    fill: #000 !important
+}
+    
 span[data-testid = "path-name-segment"] {
     color: #fff
 }
