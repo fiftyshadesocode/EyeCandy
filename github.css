@@ -119,7 +119,7 @@ div[class = "ActionListContent p-3 color-bg-default"] span {
 div[class = "feed-item-content d-flex flex-column pt-2 pb-2 border color-border-default rounded-2 color-shadow-small width-full height-fit"] {
     background: #fff3
 }
-
+#repository-container-header{background:#0000 !important}
 
 /*search results page*/
 .Box-sc-g0xbh4-0 {
