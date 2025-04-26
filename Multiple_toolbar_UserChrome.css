@@ -1,9 +1,23 @@
+#main-window {
+    background: url("https://images.unsplash.com/photo-1744140390489-fc279d403107?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDI1fGJvOGpRS1RhRTBZfHxlbnwwfHx8fHw%3D") !important;
+    display: block !important;
+    width: 100vw;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+#browser {
+    background: rgba(0, 0, 0, 0) !important;
+    backdrop-filter: blur(15px);
+}
+/* Multiple toolbars */
 /*adds rounded corners on top*/
 :root:not([inDOMFullscreen="true"]) {
     browser {
         border-radius: 6px 6px 0px 0px !important;
     }
 }
+
 /*adds transparency to compact mode sidebar*/
 :root[zen-compact-mode="true"] {
     #navigator-toolbox #titlebar {
@@ -13,39 +27,40 @@
 }
 
 :root {
-    #browser {
-        background: rgba(0, 0, 0, 0) !important;
-        backdrop-filter: none;
-    }
 
     browser {
         background: rgba(255, 255, 255, 0.08) !important;
         backdrop-filter: blur(20px) !important;
     }
-/*makes text in urlbar white*/
+
+    /*makes text in urlbar white*/
     #urlbar-results div span {
         color: #fff !important;
         fill: #fff !important;
     }
-/*adds dark color on hover to urlbar*/
+
+    /*adds dark color on hover to urlbar*/
     #urlbar:not([breakout-extend="true"]) {
         &:hover #urlbar-background {
             background: #0006 !important;
         }
     }
-/*color of urlbar*/
+
+    /*color of urlbar*/
     #urlbar:not([breakout-extend="true"]) {
         background: rgba(0, 0, 0, 0.1) !important;
 
     }
-/*color of urlbar when expanded*/
+
+    /*color of urlbar when expanded*/
     #urlbar[breakout-extend="true"] {
         & #urlbar-background {
-            background: #fff4 !important;
-            backdrop-filter: blur(80px) !important;
+            background: #0003 !important;
+            backdrop-filter: blur(20px) !important;
         }
     }
-/*changes color of more thungs to white*/
+
+    /*changes color of more thungs to white*/
     #urlbar {
         color: #fff !important;
     }
@@ -73,16 +88,18 @@
     #urlbar-zoom-button {
         background: #00000032 !important;
     }
-/*replaces the defualt svg for the back and forward button*/
-    #back-button {
+
+    /*replaces the defualt svg for the back and forward button*/
+    /* #back-button {
         list-style-image: url(arrowback.svg) !important;
     }
 
     #forward-button {
         list-style-image: url(arrowforward.svg) !important;
-    }
-/*enable if you add the playback speed extention*/
-    #playbackspeed_waldemar_b-BAP {
+    } */
+
+    /*enable if you add the playback speed extention*/
+    /* #playbackspeed_waldemar_b-BAP {
         list-style-image: url(speed.svg) !important;
     }
 
@@ -90,19 +107,19 @@
         background: #0003 !important;
         border-radius: 20px !important;
         box-shadow: none !important;
-        transform: translate(4px,2px) !important;
+        transform: translate(4px, 2px) !important;
         font-size: 8px !important;
-        
+
     }
-    
+
     #playbackspeed_waldemar_b-BAP stack {
         transform: translateY(0.7px) !important;
-    }
-/*  */
-   
-    
-/*bookmark bar animation*/
-    #zen-appcontent-navbar-container {
+    } */
+
+
+
+    /*bookmark bar animation*/
+    /* #zen-appcontent-navbar-container {
         height: 40px;
         transition: height .75s cubic-bezier(0.61, 1, 0.88, 1);
         background: rgba(255, 255, 255, 0) !important;
@@ -112,59 +129,58 @@
     #zen-appcontent-navbar-container:hover {
         height: 70px;
     }
-    
+
     #PersonalToolbar {
         transform: rotateX(90deg);
         position: fixed;
         z-index: 100;
         color: #fff !important;
     }
-    
-     #zen-appcontent-navbar-container:hover {
-         & #PersonalToolbar{
-             transform: rotateX(0deg);
-         }
+
+    #zen-appcontent-navbar-container:hover {
+        & #PersonalToolbar {
+            transform: rotateX(0deg);
+        }
     }
-    /*
-    #PersonalToolbar:hover {
-        opacity: 1;
-        z-index: 1;
-        transition: opacity .3s ease-out;
-    }*/
- #identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage)>.identity-box-button,
+
+     */
+
+    #identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage)>.identity-box-button,
     #urlbar-label-box {
         background: #0002 !important;
     }
-    
-/*makes more icons white*/
-    #bookmarks-toolbar-button image.toolbarbutton-icon {
+
+    /*makes more icons white*/
+    /* #bookmarks-toolbar-button image.toolbarbutton-icon {
         fill: #fff !important;
     }
-    
-    .bookmark-item image{
+
+    .bookmark-item image {
         fill: #fff !important;
-    }
-/*centers bookmarks*/
-    #PlacesToolbar {
+    } */
+
+    /*centers bookmarks*/
+    /* #PlacesToolbar {
         width: 99dvw !important;
         justify-content: center !important;
     }
 
     #PlacesToolbar scrollbox {
         justify-content: center !important;
-    }
+    } */
 
-/*adds blur to small sidebar*/
+    /*adds blur to small sidebar*/
     #titlebar {
         backdrop-filter: blur(80px) !important;
     }
-/*adds transparency to media player*/
+
+    /*adds transparency to media player*/
     arrowscrollbox.menupopup-arrowscrollbox {
         background: #fffc !important;
         backdrop-filter: blur(80px) !important;
     }
 
-/*changes playing animation for media player*/
+    /*changes playing animation for media player*/
     #zen-media-focus-button::after {
         content: " " !important;
         height: 150% !important;
@@ -178,6 +194,7 @@
     }
 
 }
+
 /*makes tab tittles white when not in compact mode*/
 :root:not([zen-compact-mode="true"]) {
     & #navigator-toolbox {
@@ -185,6 +202,7 @@
         color: #fff !important;
     }
 }
+
 /*makes icons on sidebar white when not in compact mode*/
 :root:not([zen-compact-mode="true"]) {
     & #navigator-toolbox toolbarbutton {
@@ -197,18 +215,21 @@
         background: #fff6 !important;
     }
 }
+
 /*aligns the top icon on small sidebar with the topbar*/
 #navigator-toolbox:not([zen-sidebar-expanded="true"]) {
     & #zen-sidebar-top-buttons-customization-target {
         padding: 0px !important;
     }
 }
+
 /*adds some padding to the bottom set of icons on small sidebar*/
 #navigator-toolbox:not([zen-sidebar-expanded="true"]) {
     & #zen-sidebar-bottom-buttons {
         padding: 0px 0px 8px 0px !important;
     }
 }
+
 /*adds semi-transparent background around selected tabs*/
 tab:where([visuallyselected]) stack vbox.tab-background {
     background: #fff8 !important;
@@ -230,40 +251,57 @@ tab:where([visuallyselected]) stack vbox.tab-background {
         }
     }
 }
+
 /*removes seperator line in right click menu*/
-menuseparator{display: none}
+menuseparator {
+    display: none
+}
+
 /*transparency for right click menu*/
-#contentAreaContextMenu{backdrop-filter: blur(1px) !important;background: #d8ecf021 !important;}
+#contentAreaContextMenu {
+    backdrop-filter: blur(1px) !important;
+    background: #d8ecf021 !important;
+}
+
 /*the things below the super url mod can do also*/
 /*aligns url to center when not in focus*/
 #urlbar .urlbar-input[aria-expanded="false"] {
-      text-align: center !important;
-    }
+    text-align: center !important;
+}
+
 /*adds a overlay over everything else when url bar is in focus*/
 #urlbar:is([breakout][breakout-extend], [breakout][usertyping][focused]):after {
-      content: "";
-      position: fixed;
-      pointer-events: none;
-      width: 200vw;
-      height: 100vh;
-      top: -5px;
-      left: -38px;
-      background-color: rgba(0, 0, 0, 0.2);
-      backdrop-filter: blur(80px);
-      z-index: -1;
-    }
-  }   
+    content: "";
+    position: fixed;
+    pointer-events: none;
+    width: 200vw;
+    height: 100vh;
+    top: -5px;
+    left: -38px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(80px);
+    z-index: -1;
+}
+}
+
 /*hides container indicator*/
 #userContext-indicator {
-      display: none;
-    }
+    display: none;
+}
+
 #userContext-icons {
-      display: none;
-    }
-#urlbar:not(:hover) #urlbar-zoom-button,#urlbar:not(:hover) #tracking-protection-icon-container,#urlbar:not(:hover) #reader-mode-button,#urlbar:not(:hover) #picture-in-picture-button,#urlbar:not(:hover) #zen-split-views-box{
-      opacity: 0;
-      transition: 100ms linear, opacity 200ms linear;
-    }
-#identity-box box{
+    display: none;
+}
+
+#urlbar:not(:hover) #urlbar-zoom-button,
+#urlbar:not(:hover) #tracking-protection-icon-container,
+#urlbar:not(:hover) #reader-mode-button,
+#urlbar:not(:hover) #picture-in-picture-button,
+#urlbar:not(:hover) #zen-split-views-box {
+    opacity: 0;
+    transition: 100ms linear, opacity 200ms linear;
+}
+
+#identity-box box {
     padding: 0px 5px !important;
 }
