@@ -156,11 +156,6 @@
         justify-content: center !important;
     } */
 
-    /*adds blur to small sidebar*/
-    #titlebar {
-        backdrop-filter: blur(80px) !important;
-    }
-
     /*adds transparency to media player*/
     arrowscrollbox.menupopup-arrowscrollbox {
         background: #fffc !important;
