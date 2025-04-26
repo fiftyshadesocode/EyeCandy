@@ -109,7 +109,7 @@ Doing this much will acheive transparency however if you want the full eyecandy 
 **Optional Step 1: Setting up transparency for other websites**<br>
 --> Now our setup so far only applies transparency on youtube,github,google,reddit and youtube music if you want to enable it for other sites as well i recommend installing the Zen internet add-on developed by <a href="https://www.reddit.com/user/sameera_s_w/">@sameera_s_w</a><br>
 Just make sure to disable it for the sites mentioned above to avoid any conflict with css
-
+Add-on Link:https://addons.mozilla.org/en-US/firefox/addon/zen-internet/
 
 **Optional Step 2: Enabling and configuring the new tab page**<br>
 [O_1.1] Enable new tab page<br>
