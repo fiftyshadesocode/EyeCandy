@@ -63,11 +63,10 @@ Follow the steps below to acheive it!!
 [2.2] Adding the code<br>
 --> Paste the following css
   
-    #main-window{
+    #zen-main-app-wrapper{
     background:  url("wall/backdrop.png") !important;
-    display: block !important;
-    width:100dvw;
-    height:100dvh;
+    width:100dvw !important;
+    height:100dvh !important;
     background-repeat:no-repeat; !important;
     background-size:cover !important;}
     #browser {
