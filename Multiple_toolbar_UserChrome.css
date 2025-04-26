@@ -14,7 +14,6 @@
     }
 }
 
-:root {
 
     browser {
         background: rgba(255, 255, 255, 0.08) !important;
@@ -181,7 +180,7 @@
         z-index: -10 !important;
     }
 
-}
+
 
 /*makes tab tittles white when not in compact mode*/
 :root:not([zen-compact-mode="true"]) {
@@ -269,7 +268,6 @@ menuseparator {
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(1px);
     z-index: -1;
-}
 }
 
 /*hides container indicator*/
