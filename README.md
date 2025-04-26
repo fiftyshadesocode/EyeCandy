@@ -64,7 +64,7 @@ Follow the steps below to acheive it!!
 --> Paste the following css
   
     #zen-main-app-wrapper{
-    background:  url("wall/backdrop.png") !important;
+    background:  url("link_to_image") !important;
     width:100dvw !important;
     height:100dvh !important;
     background-repeat:no-repeat; !important;
