@@ -106,7 +106,12 @@ Now scroll and find the turn all styles off shortcut and set it to whatever you 
 
 Doing this much will acheive transparency however if you want the full eyecandy experience follow the steps below as well
 
-**Optional Step 1: Enabling and configuring the new tab page**<br>
+**Optional Step 1: Setting up transparency for other websites**<br>
+--> Now our setup so far only applies transparency on youtube,github,google,reddit and youtube music if you want to enable it for other sites as well i recommend installing the Zen internet add-on developed by <a href="https://www.reddit.com/user/sameera_s_w/">@sameera_s_w</a><br>
+Just make sure to disable it for the sites mentioned above to avoid any conflict with css
+
+
+**Optional Step 2: Enabling and configuring the new tab page**<br>
 [O_1.1] Enable new tab page<br>
 --> Go to about config and set zen.urlbar.replace-newtab to false
 
@@ -119,7 +124,7 @@ Doing this much will acheive transparency however if you want the full eyecandy 
     #background{background:#fff0 !important}
     #credit{display:none}
 
-**Optional Step 2: Adding my tweaks to the UI**<br>
+**Optional Step 3: Adding my tweaks to the UI**<br>
 --> Copy the css from the userChrome.css file in this repo and add to the browser by following the procedure given in Step2<br>
     Read through the comments the black colored text enclosed as such /* */ <br>
     And anything you want to disable just select it and press ctrl+/ to exclude it<br>
