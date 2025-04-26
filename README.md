@@ -35,7 +35,7 @@ See it to believe it!!
 
 (will upload video later)
 
-Like the theme? 
+Like the theme? <br>
 Follow the steps below to acheive it!!
 
 **Step 1: Ready Zen:**<br>
@@ -55,12 +55,12 @@ Follow the steps below to acheive it!!
 
 
 **Step 2: Adding the backdrop:**<br>
-[2.1] Opening devtools
+[2.1] Opening devtools<br>
 -->Press the key combination of ctrl+shift+alt+I<br>
    two dialog boxes will appear press ok in the one asking for permission<br>
-   Go to the style editor tab and search for userChrome.css<br>
+   Go to the style editor tab and search for userChrome.css
    
-[2.2] Adding the code
+[2.2] Adding the code<br>
 --> Paste the following css
   
     #main-window{
@@ -121,10 +121,18 @@ Doing this much will acheive transparency however if you want the full eyecandy 
 
 **Optional Step 2: Adding my tweaks to the UI**<br>
 --> Copy the css from the userChrome.css file in this repo and add to the browser by following the procedure given in Step2<br>
-    Read through the comments the black colored text enclosed as such /* */ 
-    And anything you want to disable just select it and press ctrl+/ to exclude it
+    Read through the comments the black colored text enclosed as such /* */ <br>
+    And anything you want to disable just select it and press ctrl+/ to exclude it<br>
 
-/Note: if you decide to keep the icon changes you will have to download the icons from the icons folder in this repo and paste it in the chrome folder/
+/Note: if you decide to keep the icon changes you will have to download the icons from the icons folder in this repo and paste it in the chrome folder/<br>
 /Also true if you do decide to keep the updated media player animation/
+
+**I also recommend installing the following mods and extentions**<br>
+- Playback Speed: This extension allows you to control the speed of video playback on various websites, making it easier to watch videos at your preferred pace.<br>
+https://addons.mozilla.org/en-US/firefox/addon/playback-speed/<br>
+- Return YouTube Dislikes: It restores the ability to view dislike statistics on YouTube videos, giving you a better sense of community feedback.<br>
+https://addons.mozilla.org/en-US/firefox/addon/return-youtube-dislikes/<br>
+- Better Lyrics: Enhance your YouTube Music experience with time-synced lyrics, multilingual support, and real-time translations. It even lets you seek specific parts of a song by clicking on the lyrics.<br>
+https://addons.mozilla.org/en-US/firefox/addon/better-lyrics/<br>
 
 Feel free to let me know if there are any issue as this is very much in active development
