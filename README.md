@@ -104,7 +104,8 @@ Click on Manage Extension Shortcuts<br>
 Now scroll and find the turn all styles off shortcut and set it to whatever you like!
 </details>
 
-Doing this much will acheive transparency however if you want the full eyecandy experience follow the steps below as well
+Doing this much will acheive transparency however if you want the full eyecandy experience follow the steps below as well<br>
+/*Note:If you use darkmode replace the #fffx with #000x and rgba(255,255,255,x) with rgba(0,0,0,x)*/
 
 **Optional Step 1: Setting up transparency for other websites**<br>
 --> Now our setup so far only applies transparency on youtube,github,google,reddit and youtube music if you want to enable it for other sites as well i recommend installing the Zen internet add-on developed by <a href="https://www.reddit.com/user/sameera_s_w/">@sameera_s_w</a><br>
