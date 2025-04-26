@@ -66,8 +66,8 @@ Follow the steps below to acheive it!!
     #main-window{
     background:  url("wall/backdrop.png") !important;
     display: block !important;
-    width:100dvw !important;
-    height:100dvh !important;
+    width:100dvw;
+    height:100dvh;
     background-repeat:no-repeat; !important;
     background-size:cover !important;}
     #browser {
