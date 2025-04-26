@@ -1,3 +1,4 @@
+@-moz-document domain("github.com") {
 html, body {
     background: #fff0 !important;
     height: 100dvh
@@ -119,7 +120,7 @@ div[class = "ActionListContent p-3 color-bg-default"] span {
 div[class = "feed-item-content d-flex flex-column pt-2 pb-2 border color-border-default rounded-2 color-shadow-small width-full height-fit"] {
     background: #fff3
 }
-#repository-container-header{background:#0000 !important}
+
 
 /*search results page*/
 .Box-sc-g0xbh4-0 {
@@ -262,7 +263,7 @@ span.Box-sc-g0xbh4-0 span, span.Box-sc-g0xbh4-0 strong.color-fg-default {
 }
 
 #repository-container-header {
-    background: #0001
+    background: #0001 !important
 }
 
 .SelectMenu-footer {
@@ -605,4 +606,5 @@ diff-layout .pr-toolbar .diffbar span.Button-label {
 
 .Box-sc-g0xbh4-0 textarea[aria-label = "file content"] {
     color: #000 !important
+}
 }
