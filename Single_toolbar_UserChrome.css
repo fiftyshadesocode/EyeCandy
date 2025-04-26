@@ -88,9 +88,7 @@
         background: #0002 !important;
     }
 
-    /*adds blur to small sidebar*/
-
-
+    
 /*makes tab tittles white when not in compact mode*/
 :root:not([zen-compact-mode="true"]) {
     & #navigator-toolbox {
