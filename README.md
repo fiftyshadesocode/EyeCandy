@@ -67,7 +67,7 @@ Follow the steps below to acheive it!!
     background:  url("link_to_image") !important;
     width:100dvw !important;
     height:100dvh !important;
-    background-repeat:no-repeat; !important;
+    background-repeat:no-repeat !important;
     background-size:cover !important;}
     #browser {
     background: rgba(0, 0, 0, 0.02) !important;
