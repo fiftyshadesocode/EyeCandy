@@ -32,8 +32,7 @@ See it to believe it!!
 
 </details>
 
-
-(will upload video later)
+<a href="https://www.youtube.com/watch?v=lTVWFJwyGsg">Click Here to see video showcase and guide</a>
 
 Like the theme? <br>
 Follow the steps below to acheive it!!
