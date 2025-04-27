@@ -126,6 +126,15 @@ Add-on Link:https://addons.mozilla.org/en-US/firefox/addon/zen-internet/
     #background{background:#fff0 !important}
     #credit{display:none}
 
+
+For private mode new tab page follow the steps used to make the userChrome.css file and make a file userContent.css
+in it paste<br>
+
+    @-moz-document url(about:privatebrowsing){html {background: #fff0 !important;}.logo{background: url(secure.svg) !important;background-size: 96px !important;width: 96px !important;height: 96px !important;}}
+
+    
+/Make sure to download the secure.svg file from the repo and save it in the chrome folder/
+  
 **Optional Step 3: Adding my tweaks to the UI**<br>
 --> Copy the css from the userChrome.css file in this repo and add to the browser by following the procedure given in Step2<br>
     Read through the comments the black colored text enclosed as such /* */ <br>
