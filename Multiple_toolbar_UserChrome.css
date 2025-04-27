@@ -257,8 +257,8 @@ menuseparator {
     position: fixed;
     pointer-events: none;
     width: 200vw;
-    height: 100vh;
-    top: -5px;
+    height: 200vh;
+    top: -200px;
     left: -380px;
     background-color: rgba(0,0,0, 0.3);
     backdrop-filter: blur(1px);
