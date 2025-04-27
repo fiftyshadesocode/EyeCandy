@@ -147,6 +147,12 @@ reddit-recent-pages {
 #communities_section li div span {
     color: #000 !important
 }
+
+/*login buttons*/
+faceplate-tracker[source="xpromo"] .text-14{
+    color:#000 !important
+}
+
 /*homepage right sidebar*/
 recent-posts {
     --color-neutral-background-weak: #fff0
