@@ -15,98 +15,99 @@
 }
 
 
-    browser {
-        background: rgba(255, 255, 255, 0) !important;
+browser {
+    background: rgba(255, 255, 255, 0) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/*makes text in urlbar white*/
+#urlbar-results div span {
+    color: #fff !important;
+    fill: #fff !important;
+}
+
+/*adds dark color on hover to urlbar*/
+#urlbar:not([breakout-extend="true"]) {
+    &:hover #urlbar-background {
+        background: #0006 !important;
+    }
+}
+
+/*color of urlbar*/
+#urlbar:not([breakout-extend="true"]) {
+    background: rgba(0, 0, 0, 0.1) !important;
+
+}
+
+/*color of urlbar when expanded*/
+#urlbar[breakout-extend="true"] {
+    & #urlbar-background {
+        background: #fff2 !important;
         backdrop-filter: blur(10px) !important;
     }
+}
 
-    /*makes text in urlbar white*/
-    #urlbar-results div span {
-        color: #fff !important;
-        fill: #fff !important;
-    }
+/*changes color of more thungs to white*/
+#urlbar {
+    color: #fff !important;
+}
 
-    /*adds dark color on hover to urlbar*/
-    #urlbar:not([breakout-extend="true"]) {
-        &:hover #urlbar-background {
-            background: #0006 !important;
-        }
-    }
+.titlebar-buttonbox {
+    color: #fff !important;
+}
 
-    /*color of urlbar*/
-    #urlbar:not([breakout-extend="true"]) {
-        background: rgba(0, 0, 0, 0.1) !important;
+#star-button[starred] {
+    fill: #ccdbf0 !important;
+}
 
-    }
+#reload-button {
+    fill: #fff !important;
+}
 
-    /*color of urlbar when expanded*/
-    #urlbar[breakout-extend="true"] {
-        & #urlbar-background {
-            background: #fff2 !important;
-            backdrop-filter: blur(10px) !important;
-        }
-    }
+#unified-extensions-button {
+    fill: #fff !important;
+}
 
-    /*changes color of more thungs to white*/
-    #urlbar {
-        color: #fff !important;
-    }
+#PanelUI-menu-button {
+    fill: #fff !important;
+}
 
-    .titlebar-buttonbox {
-        color: #fff !important;
-    }
+#urlbar-zoom-button {
+    background: #00000032 !important;
+}
 
-    #star-button[starred] {
-        fill: #ccdbf0 !important;
-    }
+/*replaces the defualt svg for the back and forward button*/
+/* #back-button {
+    list-style-image: url(arrowback.svg) !important;
+}
 
-    #reload-button {
-        fill: #fff !important;
-    }
+#forward-button {
+    list-style-image: url(arrowforward.svg) !important;
+} */
 
-    #unified-extensions-button {
-        fill: #fff !important;
-    }
+/*enable if you add the playback speed extention*/
 
-    #PanelUI-menu-button {
-        fill: #fff !important;
-    }
+/* #playbackspeed_waldemar_b-BAP {
+    list-style-image: url(speed.svg) !important;
+}
 
-    #urlbar-zoom-button {
-        background: #00000032 !important;
-    }
+#playbackspeed_waldemar_b-BAP stack .toolbarbutton-badge {
+    background: #0003 !important;
+    border-radius: 20px !important;
+    box-shadow: none !important;
+    transform: translate(4px, 2px) !important;
+    font-size: 8px !important;
 
-    /*replaces the defualt svg for the back and forward button*/
-    #back-button {
-        list-style-image: url(arrowback.svg) !important;
-    }
+}
 
-    #forward-button {
-        list-style-image: url(arrowforward.svg) !important;
-    }
-
-    /*enable if you add the playback speed extention*/
-    #playbackspeed_waldemar_b-BAP {
-        list-style-image: url(speed.svg) !important;
-    }
-
-    #playbackspeed_waldemar_b-BAP stack .toolbarbutton-badge {
-        background: #0003 !important;
-        border-radius: 20px !important;
-        box-shadow: none !important;
-        transform: translate(4px, 2px) !important;
-        font-size: 8px !important;
-
-    }
-
-    #playbackspeed_waldemar_b-BAP stack {
-        transform: translateY(0.7px) !important;
-    }
+#playbackspeed_waldemar_b-BAP stack {
+    transform: translateY(0.7px) !important;
+}
+ */
 
 
-
-    /*bookmark bar animation*/
-    /* #zen-appcontent-navbar-container {
+/*bookmark bar animation*/
+/* #zen-appcontent-navbar-container {
         height: 40px;
         transition: height .75s cubic-bezier(0.61, 1, 0.88, 1);
         background: rgba(255, 255, 255, 0) !important;
@@ -132,13 +133,13 @@
 
      */
 
-    #identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage)>.identity-box-button,
-    #urlbar-label-box {
-        background: #0002 !important;
-    }
+#identity-box[pageproxystate="valid"]:is(.notSecureText, .chromeUI, .extensionPage)>.identity-box-button,
+#urlbar-label-box {
+    background: #0002 !important;
+}
 
-    /*makes more icons white*/
-    /* #bookmarks-toolbar-button image.toolbarbutton-icon {
+/*makes more icons white*/
+/* #bookmarks-toolbar-button image.toolbarbutton-icon {
         fill: #fff !important;
     }
 
@@ -146,8 +147,8 @@
         fill: #fff !important;
     } */
 
-    /*centers bookmarks*/
-    /* #PlacesToolbar {
+/*centers bookmarks*/
+/* #PlacesToolbar {
         width: 99dvw !important;
         justify-content: center !important;
     }
@@ -156,24 +157,24 @@
         justify-content: center !important;
     } */
 
-    /*adds transparency to media player*/
-    arrowscrollbox.menupopup-arrowscrollbox {
-        background: #fffc !important;
-        backdrop-filter: blur(80px) !important;
-    }
+/*adds transparency to media player*/
+arrowscrollbox.menupopup-arrowscrollbox {
+    background: #fffc !important;
+    backdrop-filter: blur(80px) !important;
+}
 
-    /*changes playing animation for media player*/
-    #zen-media-focus-button::after {
-        content: " " !important;
-        height: 150% !important;
-        width: 40px !important;
-        background-image: url(https://cdn.pixabay.com/animation/2023/10/08/03/19/03-19-26-213_512.gif) !important;
-        ;
-        background-size: 100% !important;
-        background-repeat: no-repeat !important;
-        transform: translate(-20px, 11px) !important;
-        z-index: -10 !important;
-    }
+/*changes playing animation for media player*/
+#zen-media-focus-button::after {
+    content: " " !important;
+    height: 150% !important;
+    width: 40px !important;
+    background-image: url(https://cdn.pixabay.com/animation/2023/10/08/03/19/03-19-26-213_512.gif) !important;
+    ;
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+    transform: translate(-20px, 11px) !important;
+    z-index: -10 !important;
+}
 
 
 
@@ -260,7 +261,7 @@ menuseparator {
     height: 200vh;
     top: -200px;
     left: -380px;
-    background-color: rgba(0,0,0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(1px);
     z-index: -1;
 }
